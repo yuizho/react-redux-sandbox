@@ -13,17 +13,17 @@ class App extends Component<{}, AppState> {
     this.state = { count: 0 };
   }
 
-  increment() {
+  increment = () => {
     this.setState((prevState) => ({
       count: prevState.count + 1,
     }));
-  }
+  };
 
   decrement = () => {
     this.setState((prevState) => ({
       count: prevState.count - 1,
     }));
-  }
+  };
 
   render() {
     const { count } = this.state;
