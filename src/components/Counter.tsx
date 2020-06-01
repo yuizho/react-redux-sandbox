@@ -1,4 +1,4 @@
-import React, { FC, useState } from "react";
+import React, { FC } from "react";
 import { Button, Card, Statistic } from "semantic-ui-react";
 
 import "../App.css";
